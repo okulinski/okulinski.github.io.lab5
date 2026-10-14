@@ -1,11 +1,13 @@
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page Title</title>
-  <link rel="stylesheet" href="">
 </head>
 <body>
+<h1>&nbsp;</h1>
 <h2>Volunteer Form</h2>
 <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
     <fieldset>
@@ -14,8 +16,8 @@
         <label for="fname">first name: </label>
         <input type="text" id="fname" name="first_name_field" style="width: 85%;">
         <br>
-        <label for="fname">last name:</label>
-        <input type="text" id="fname" name="last_name_field" style="width: 85%;">
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="last_name_field" style="width: 85%;">
         <br>
         <label for="phone">phone:</label>
         <input type="tel" id="phone" name="phone_field" pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}" style="width: 89%;">
@@ -27,7 +29,7 @@
         <label for="cars">Gender:</label><br>
             <label for="html">Male:</label>
             <input type="radio" id="html" name="gender_field" value="HTML">
-            <label for="css">Female</label>
+            <label for="html">Female:</label>
             <input type="radio" id="male" name="gender_field" value="male"><br>
         
         <label for="cars">Age:</label><br>
@@ -38,19 +40,20 @@
     </fieldset>
     <fieldset>
         <legend>My Availability</legend>
+        <h3>&nbsp;</h3>
 
         <h4>Days Available:</h4>
-        <label for="vehicle1">Monday</label>
+        <label for="day1">Monday</label>
         <input type="checkbox" id="day1" name="available_field[]" value="Monday"><br>
-        <label for="vehicle2">Tuesday</label>
+        <label for="day2">Tuesday</label>
         <input type="checkbox" id="day2" name="available_field[]" value="Tuesday"><br>
-        <label for="vehicle3">Wednesday</label>
+        <label for="day3">Wednesday</label>
         <input type="checkbox" id="day3" name="available_field[]" value="Wednesday"><br>
-        <label for="vehicle3">Thursday</label>
+        <label for="day4">Thursday</label>
         <input type="checkbox" id="day4" name="available_field[]" value="Thursday"><br>
-        <label for="vehicle3">Friday</label>
+        <label for="day5">Friday</label>
         <input type="checkbox" id="day5" name="available_field[]" value="Friday"><br>
-        <label for="vehicle3">Saturday</label>
+        <label for="day6">Saturday</label>
         <input type="checkbox" id="day6" name="available_field[]" value="Saturday"><br>
         
         <h4>Comments</h4>
@@ -63,8 +66,6 @@
 
 
 </form>
-
-<script src=""></script>
 
 </body>
 </html>
